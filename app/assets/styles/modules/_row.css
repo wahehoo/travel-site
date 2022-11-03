@@ -2,10 +2,26 @@
     
     @mixin clearfix;
 
+    &__gutters {
+        margin-right: -65px;
+    }
+    
+    &__gutters_large {
+        margin-right: -100px;
+    }
+
     &__gutters > div {
         padding-right: 65px;
         box-sizing: border-box;
     }
+
+    &__gutters_large > div {
+        padding-right: 100px;
+        box-sizing: border-box;
+    }
+
+
+
 
     &__b_margin_until_medium{
         margin-bottom:1rem;
@@ -23,6 +39,11 @@
 
         &__medium_4_larger{
             width: 37%;
+        }
+
+        &__medium-6{
+            float:left;
+            width: 50%;
         }
         
         &__medium_8{
